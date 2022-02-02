@@ -67,6 +67,7 @@ function Criacalculadora() {
 
 				this.display.value = conta;
 			} catch (e) {
+				this.limpaDisplay();
 				alert('Conta Invalida');
 				return;
 			}
